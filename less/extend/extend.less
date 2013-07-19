@@ -1,0 +1,75 @@
+//Extend Bootstrap
+
+
+//button.less
+.btn-purple {
+	.buttonBackground(@btnPurpleBackground, @btnPurpleBackgroundHighlight);
+}
+.btn-mauve {
+	.buttonBackground(@btnMauveBackground, @btnMauveBackgroundHighlight);
+}
+.btn-blue {
+	.buttonBackground(@btnBlueBackground, @btnBlueBackgroundHighlight);
+}
+.btn-green {
+	.buttonBackground(@btnGreenBackground, @btnGreenBackgroundHighlight);
+}
+.btn-orange {
+	.buttonBackground(@btnOrangeBackground, @btnOrangeBackgroundHighlight);
+}
+.btn-grey {
+	.buttonBackground(@btnGreyBackground, @btnGreyBackgroundHighlight);
+}
+.btn-black {
+	.buttonBackground(@btnBlackBackground, @btnBlackBackgroundHighlight);
+}
+
+.btn-purple.active,
+.btn-mauve.active,
+.btn-blue.active,
+.btn-green.active,
+.btn-orange.active,
+.btn-grey.active,
+.btn-black.active {
+	color: rgba(255,255,255,.75);
+}
+
+
+//button-groups.less
+// Account for other colors
+.btn-group.open {
+	.btn-purple.dropdown-toggle {
+		background-color: @btnPurpleBackgroundHighlight;
+	}
+	.btn-mauve.dropdown-toggle {
+		background-color: @btnMauveBackgroundHighlight;
+	}
+	.btn-blue.dropdown-toggle {
+		background-color: @btnBlueBackgroundHighlight;
+	}
+	.btn-green.dropdown-toggle {
+		background-color: @btnGreenBackgroundHighlight;
+	}
+	.btn-orange.dropdown-toggle {
+		background-color: @btnOrangeBackgroundHighlight;
+	}
+	.btn-grey.dropdown-toggle {
+		background-color: @btnGreyBackgroundHighlight;
+	}
+	.btn-black.dropdown-toggle {
+		background-color: @btnBlackBackgroundHighlight;
+	}
+}
+
+.btn-purple,
+.btn-mauve,
+.btn-blue,
+.btn-green,
+.btn-orange,
+.btn-grey,
+.btn-black {
+	.caret {
+		border-top-color: @white;
+		border-bottom-color: @white;
+	}
+}

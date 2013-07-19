@@ -5331,3 +5331,45 @@ a.text-black:focus {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
 }
+.nav-pills.nav-purple > .active > a,
+.nav-pills.nav-purple > .active > a:hover,
+.nav-pills.nav-purple > .active > a:focus {
+  color: #ffffff;
+  background-color: #4d2177;
+}
+.nav-pills.nav-mauve > .active > a,
+.nav-pills.nav-mauve > .active > a:hover,
+.nav-pills.nav-mauve > .active > a:focus {
+  color: #ffffff;
+  background-color: #8b0066;
+}
+.nav-pills.nav-blue > .active > a,
+.nav-pills.nav-blue > .active > a:hover,
+.nav-pills.nav-blue > .active > a:focus {
+  color: #ffffff;
+  background-color: #006972;
+}
+.nav-pills.nav-green > .active > a,
+.nav-pills.nav-green > .active > a:hover,
+.nav-pills.nav-green > .active > a:focus {
+  color: #ffffff;
+  background-color: #84a40b;
+}
+.nav-pills.nav-orange > .active > a,
+.nav-pills.nav-orange > .active > a:hover,
+.nav-pills.nav-orange > .active > a:focus {
+  color: #ffffff;
+  background-color: #ed7703;
+}
+.nav-pills.nav-grey > .active > a,
+.nav-pills.nav-grey > .active > a:hover,
+.nav-pills.nav-grey > .active > a:focus {
+  color: #ffffff;
+  background-color: #9397a1;
+}
+.nav-pills.nav-black > .active > a,
+.nav-pills.nav-black > .active > a:hover,
+.nav-pills.nav-black > .active > a:focus {
+  color: #ffffff;
+  background-color: #001323;
+}

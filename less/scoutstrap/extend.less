@@ -65,7 +65,6 @@ a.text-black:focus { color: darken(@blackText, 10%); }
 
 
 //button-groups.less
-// Account for other colors
 .btn-group.open {
 	.btn-purple.dropdown-toggle {
 		background-color: @btnPurpleBackgroundHighlight;
@@ -101,4 +100,54 @@ a.text-black:focus { color: darken(@blackText, 10%); }
 		border-top-color: @white;
 		border-bottom-color: @white;
 	}
+}
+
+//nav.less
+.nav-pills.nav-purple > .active > a,
+.nav-pills.nav-purple > .active > a:hover,
+.nav-pills.nav-purple > .active > a:focus {
+	color: @white;
+	background-color: @btnPurpleBackground;
+}
+
+.nav-pills.nav-mauve > .active > a,
+.nav-pills.nav-mauve > .active > a:hover,
+.nav-pills.nav-mauve > .active > a:focus {
+	color: @white;
+	background-color: @btnMauveBackground;
+}
+
+.nav-pills.nav-blue > .active > a,
+.nav-pills.nav-blue > .active > a:hover,
+.nav-pills.nav-blue > .active > a:focus {
+	color: @white;
+	background-color: @btnBlueBackground;
+}
+
+.nav-pills.nav-green > .active > a,
+.nav-pills.nav-green > .active > a:hover,
+.nav-pills.nav-green > .active > a:focus {
+	color: @white;
+	background-color: @btnGreenBackground;
+}
+
+.nav-pills.nav-orange > .active > a,
+.nav-pills.nav-orange > .active > a:hover,
+.nav-pills.nav-orange > .active > a:focus {
+	color: @white;
+	background-color: @btnOrangeBackground;
+}
+
+.nav-pills.nav-grey > .active > a,
+.nav-pills.nav-grey > .active > a:hover,
+.nav-pills.nav-grey > .active > a:focus {
+	color: @white;
+	background-color: @btnGreyBackground;
+}
+
+.nav-pills.nav-black > .active > a,
+.nav-pills.nav-black > .active > a:hover,
+.nav-pills.nav-black > .active > a:focus {
+	color: @white;
+	background-color: @btnBlackBackground;
 }

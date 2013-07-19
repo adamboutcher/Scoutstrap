@@ -5018,6 +5018,55 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+.text-purple {
+  color: #4d2177;
+}
+a.text-purple:hover,
+a.text-purple:focus {
+  color: #33164f;
+}
+.text-mauve {
+  color: #8b0066;
+}
+a.text-mauve:hover,
+a.text-mauve:focus {
+  color: #580041;
+}
+.text-blue {
+  color: #006972;
+}
+a.text-blue:hover,
+a.text-blue:focus {
+  color: #003a3f;
+}
+.text-green {
+  color: #84a40b;
+}
+a.text-green:hover,
+a.text-green:focus {
+  color: #5e7408;
+}
+.text-orange {
+  color: #ed7703;
+}
+a.text-orange:hover,
+a.text-orange:focus {
+  color: #bb5e02;
+}
+.text-grey {
+  color: #9397a1;
+}
+a.text-grey:hover,
+a.text-grey:focus {
+  color: #787d89;
+}
+.text-black {
+  color: #001323;
+}
+a.text-black:hover,
+a.text-black:focus {
+  color: #000000;
+}
 .btn-purple {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);

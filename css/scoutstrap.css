@@ -5373,3 +5373,52 @@ a.text-black:focus {
   color: #ffffff;
   background-color: #001323;
 }
+.nav-list.nav-purple > .active > a,
+.nav-list.nav-purple > .active > a:hover,
+.nav-list.nav-purple > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #4d2177;
+}
+.nav-list.nav-mauve > .active > a,
+.nav-list.nav-mauve > .active > a:hover,
+.nav-list.nav-mauve > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #8b0066;
+}
+.nav-list.nav-blue > .active > a,
+.nav-list.nav-blue > .active > a:hover,
+.nav-list.nav-blue > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #006972;
+}
+.nav-list.nav-green > .active > a,
+.nav-list.nav-green > .active > a:hover,
+.nav-list.nav-green > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #84a40b;
+}
+.nav-list.nav-orange > .active > a,
+.nav-list.nav-orange > .active > a:hover,
+.nav-list.nav-orange > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ed7703;
+}
+.nav-list.nav-grey > .active > a,
+.nav-list.nav-grey > .active > a:hover,
+.nav-list.nav-grey > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #9397a1;
+}
+.nav-list.nav-black > .active > a,
+.nav-list.nav-black > .active > a:hover,
+.nav-list.nav-black > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #001323;
+}

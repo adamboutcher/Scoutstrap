@@ -7,7 +7,7 @@
 		<meta name="description" content="Scoutstrap Examples" />
 		<meta name="author" content="Adam Boutcher" />
 		<link href="css/bootstrap.css" rel="stylesheet" />
-		<link href="css/responsive.css" rel="stylesheet" />
+		<link href="css/bootstrap-responsive.css" rel="stylesheet" />
 		<!-- Scoutstrap!! -->
 		<link href="css/scoutstrap.css" rel="stylesheet" />
 	</head>
@@ -17,16 +17,22 @@
 			<p>
 				This minimal documentation is to highlight the additions made to bootstrap for Scoutstrap.<br/>
 				Built upon <a href="http://twitter.github.io/bootstrap/index.html">Bootstrap 2.3.2 Framework</a> scoutstrap.css after your bootstrap and it should all work nicely.<br/>
-				Please see the <a href="http://twitter.github.io/bootstrap/">standard Bootstrap docs</a> for extra help.
 			</p>
 			<div class="row">
 				<div class="span3">
-					<ul class="nav nav-list" id="nav" style="position:fixed;">
-						<li class=""><a href="#typography">Typography</a></li>
-						<li class=""><a href="#buttons">Buttons</a></li>
-						<li class=""><a href="#nav">Nav</a></li>
-						<li class=""><a href="#navbar">Navbar</a></li>
-					</ul>
+					<div style="position:fixed;">
+						<ul class="nav nav-list" id="nav">
+							<li class=""><a href="#typography">Typography</a></li>
+							<li class=""><a href="#buttons">Buttons</a></li>
+							<li class=""><a href="#nav">Nav</a></li>
+							<li class=""><a href="#navbar">Navbar</a></li>
+							<li class=""><a href="#progress">Progress Bars</a></li>
+							<li class="">&nbsp;</li>
+							<li class=""><a href="http://twitter.github.io/bootstrap/">Bootstrap Docs</a></li>
+						</ul>
+						<br/><br/><br/><br/>
+						<small>&copy; 2013 - <a href="http://www.aboutcher.co.uk">Adam Boutcher</a></small>
+					</div>
 				</div>
 				<div class="span9">
 					<section id="typography">
@@ -197,12 +203,30 @@
 							</div>
 						</div>
 					</section>
+					<br/>
+					<section id="progress">
+						<div class="page-header"><h2>Progress Bars</h2></div>
+						<div class="well small">
+							<div class="progress">
+  								<div class="bar bar-purple" style="width: 14%;"></div>
+  								<div class="bar bar-mauve" style="width: 14%;"></div>
+  								<div class="bar bar-blue" style="width: 14%;"></div>
+  								<div class="bar bar-green" style="width: 14%;"></div>
+  								<div class="bar bar-orange" style="width: 14%;"></div>
+  								<div class="bar bar-grey" style="width: 14%;"></div>
+  								<div class="bar bar-black" style="width: 14%;"></div>
+							</div>
+							<div class="progress progress-striped progress-purple active">
+  								<div class="bar" style="width: 53%;"></div>
+							</div>
+						</div>
+					</section>
 
 				</div>
 			</div>
 
-			<footer>
-				<small>&copy; 2013 - <a href="http://www.aboutcvher.co.uk">Adam Boutcher</a></small> &middot; <small>Built with Scoutstrap from Bootstrap Source</small>
+			<footer class="text-center">
+				<small>Built with Scoutstrap from Bootstrap Source</small>
 			</footer>
 
 		<!-- Added jQuery from Google CDN so it works. -->

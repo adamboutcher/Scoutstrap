@@ -231,6 +231,11 @@ a.text-black:focus { color: darken(@blackText, 10%); }
 	.navbar-text {
 		color: @navbarPurpleText;
 	}
+	.nav .active > a,
+  	.nav .active > a:hover,
+  	.nav .active > a:focus {
+    	color: @navbarPurpleBorder;
+  	}
 }
 
 .navbar-mauve {
@@ -253,6 +258,11 @@ a.text-black:focus { color: darken(@blackText, 10%); }
 	.navbar-text {
 		color: @navbarMauveText;
 	}
+	.nav .active > a,
+  	.nav .active > a:hover,
+  	.nav .active > a:focus {
+    	color: @navbarMauveBorder;
+  	}
 }
 
 .navbar-blue {
@@ -275,6 +285,11 @@ a.text-black:focus { color: darken(@blackText, 10%); }
 	.navbar-text {
 		color: @navbarBlueText;
 	}
+	.nav .active > a,
+  	.nav .active > a:hover,
+  	.nav .active > a:focus {
+    	color: @navbarBlueBorder;
+  	}
 }
 
 .navbar-green {
@@ -297,4 +312,90 @@ a.text-black:focus { color: darken(@blackText, 10%); }
 	.navbar-text {
 		color: @navbarGreenText;
 	}
+	.nav .active > a,
+  	.nav .active > a:hover,
+  	.nav .active > a:focus {
+    	color: @navbarGreenBorder;
+  	}
+}
+
+.navbar-orange {
+	.navbar-inner {
+		#gradient > .vertical(@navbarOrangeBackground, @navbarOrangeBackgroundHighlight);
+		border-color: @navbarOrangeBorder;
+	}
+	.brand,
+	.nav > li > a {
+		color: @navbarOrangeLinkColor;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+		&:hover,
+		&:focus {
+			color: @navbarOrangeLinkColorHover;
+		}
+	}
+	.brand {
+		color: @navbarOrangeBrandColor;
+	}
+	.navbar-text {
+		color: @navbarOrangeText;
+	}
+	.nav .active > a,
+  	.nav .active > a:hover,
+  	.nav .active > a:focus {
+    	color: @navbarOrangeBorder;
+  	}
+}
+
+.navbar-grey {
+	.navbar-inner {
+		#gradient > .vertical(@navbarGreyBackground, @navbarGreyBackgroundHighlight);
+		border-color: @navbarGreyBorder;
+	}
+	.brand,
+	.nav > li > a {
+		color: @navbarGreyLinkColor;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+		&:hover,
+		&:focus {
+			color: @navbarGreyLinkColorHover;
+		}
+	}
+	.brand {
+		color: @navbarGreyBrandColor;
+	}
+	.navbar-text {
+		color: @navbarGreyText;
+	}
+	.nav .active > a,
+  	.nav .active > a:hover,
+  	.nav .active > a:focus {
+    	color: @navbarGreyBorder;
+  	}
+}
+
+.navbar-black {
+	.navbar-inner {
+		#gradient > .vertical(@navbarBlackBackground, @navbarBlackBackgroundHighlight);
+		border-color: @navbarBlackBorder;
+	}
+	.brand,
+	.nav > li > a {
+		color: @navbarBlackLinkColor;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+		&:hover,
+		&:focus {
+			color: @navbarBlackLinkColorHover;
+		}
+	}
+	.brand {
+		color: @navbarBlackBrandColor;
+	}
+	.navbar-text {
+		color: @navbarBlackText;
+	}
+	.nav .active > a,
+  	.nav .active > a:hover,
+  	.nav .active > a:focus {
+    	color: @navbarBlackBorder;
+  	}
 }

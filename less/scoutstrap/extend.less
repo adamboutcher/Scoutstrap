@@ -155,55 +155,146 @@ a.text-black:focus { color: darken(@blackText, 10%); }
 .nav-list.nav-purple > .active > a,
 .nav-list.nav-purple > .active > a:hover,
 .nav-list.nav-purple > .active > a:focus {
-  color: @white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: @btnPurpleBackground;
+	color: @white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	background-color: @btnPurpleBackground;
 }
 
 .nav-list.nav-mauve > .active > a,
 .nav-list.nav-mauve > .active > a:hover,
 .nav-list.nav-mauve > .active > a:focus {
-  color: @white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: @btnMauveBackground;
+	color: @white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	background-color: @btnMauveBackground;
 }
 
 .nav-list.nav-blue > .active > a,
 .nav-list.nav-blue > .active > a:hover,
 .nav-list.nav-blue > .active > a:focus {
-  color: @white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: @btnBlueBackground;
+	color: @white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	background-color: @btnBlueBackground;
 }
 
 .nav-list.nav-green > .active > a,
 .nav-list.nav-green > .active > a:hover,
 .nav-list.nav-green > .active > a:focus {
-  color: @white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: @btnGreenBackground;
+	color: @white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	background-color: @btnGreenBackground;
 }
 
 .nav-list.nav-orange > .active > a,
 .nav-list.nav-orange > .active > a:hover,
 .nav-list.nav-orange > .active > a:focus {
-  color: @white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: @btnOrangeBackground;
+	color: @white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	background-color: @btnOrangeBackground;
 }
 
 .nav-list.nav-grey > .active > a,
 .nav-list.nav-grey > .active > a:hover,
 .nav-list.nav-grey > .active > a:focus {
-  color: @white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: @btnGreyBackground;
+	color: @white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	background-color: @btnGreyBackground;
 }
 
 .nav-list.nav-black > .active > a,
 .nav-list.nav-black > .active > a:hover,
 .nav-list.nav-black > .active > a:focus {
-  color: @white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: @btnBlackBackground;
+	color: @white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	background-color: @btnBlackBackground;
+}
+
+
+//nab-bar.less
+
+.navbar-purple {
+	.navbar-inner {
+		#gradient > .vertical(@navbarPurpleBackgroundHighlight, @navbarPurpleBackground);
+		border-color: @navbarPurpleBorder;
+	}
+	.brand,
+	.nav > li > a {
+		color: @navbarPurpleLinkColor;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+		&:hover,
+		&:focus {
+			color: @navbarPurpleLinkColorHover;
+		}
+	}
+	.brand {
+		color: @navbarPurpleBrandColor;
+	}
+	.navbar-text {
+		color: @navbarPurpleText;
+	}
+}
+
+.navbar-mauve {
+	.navbar-inner {
+		#gradient > .vertical(@navbarMauveBackground, @navbarMauveBackgroundHighlight);
+		border-color: @navbarMauveBorder;
+	}
+	.brand,
+	.nav > li > a {
+		color: @navbarMauveLinkColor;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+		&:hover,
+		&:focus {
+			color: @navbarMauveLinkColorHover;
+		}
+	}
+	.brand {
+		color: @navbarMauveBrandColor;
+	}
+	.navbar-text {
+		color: @navbarMauveText;
+	}
+}
+
+.navbar-blue {
+	.navbar-inner {
+		#gradient > .vertical(@navbarBlueBackground, @navbarBlueBackgroundHighlight);
+		border-color: @navbarBlueBorder;
+	}
+	.brand,
+	.nav > li > a {
+		color: @navbarBlueLinkColor;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+		&:hover,
+		&:focus {
+			color: @navbarBlueLinkColorHover;
+		}
+	}
+	.brand {
+		color: @navbarBlueBrandColor;
+	}
+	.navbar-text {
+		color: @navbarBlueText;
+	}
+}
+
+.navbar-green {
+	.navbar-inner {
+		#gradient > .vertical(@navbarGreenBackground, @navbarGreenBackgroundHighlight);
+		border-color: @navbarGreenBorder;
+	}
+	.brand,
+	.nav > li > a {
+		color: @navbarGreenLinkColor;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+		&:hover,
+		&:focus {
+			color: @navbarGreenLinkColorHover;
+		}
+	}
+	.brand {
+		color: @navbarGreenBrandColor;
+	}
+	.navbar-text {
+		color: @navbarGreenText;
+	}
 }

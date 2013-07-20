@@ -4,27 +4,28 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Scoutstrap</title>
-    	<meta name="description" content="Scoutstrap Examples" />
-    	<meta name="author" content="Adam Boutcher" />
-    	<link href="css/bootstrap.css" rel="stylesheet" />
-   		<link href="css/responsive.css" rel="stylesheet" />
-   		<!-- Scoutstrap!! -->
-    	<link href="css/scoutstrap.css" rel="stylesheet" />
-  	</head>
-  	<body>
-  		<div class="container">
-  			<h1>Scoutstrap</h1>
-  			<p>
-  				This minimal documentation is to highlight the additions made to bootstrap for Scoutstrap.<br/>
-  				Scoutstrap contains the main <a href="http://twitter.github.io/bootstrap/index.html">Bootstrap 2.3.2 Framework</a> so just add this instead of bootstrap.css and then add the responsive.css<br/>
-  				Please see the <a href="http://twitter.github.io/bootstrap/">standard Bootstrap docs</a> for extra help.
-  			</p>
+		<meta name="description" content="Scoutstrap Examples" />
+		<meta name="author" content="Adam Boutcher" />
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/responsive.css" rel="stylesheet" />
+		<!-- Scoutstrap!! -->
+		<link href="css/scoutstrap.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Scoutstrap</h1>
+			<p>
+				This minimal documentation is to highlight the additions made to bootstrap for Scoutstrap.<br/>
+				Scoutstrap contains the main <a href="http://twitter.github.io/bootstrap/index.html">Bootstrap 2.3.2 Framework</a> so just add this instead of bootstrap.css and then add the responsive.css<br/>
+				Please see the <a href="http://twitter.github.io/bootstrap/">standard Bootstrap docs</a> for extra help.
+			</p>
 			<div class="row">
 				<div class="span3">
 					<ul class="nav nav-list" id="nav" style="position:fixed;">
-						<li class=""><a href="#typography"><i class="icon-chevron-right"></i> Typography</a></li>
-						<li class=""><a href="#buttons"><i class="icon-chevron-right"></i> Buttons</a></li>
-						<li class=""><a href="#nav"><i class="icon-chevron-right"></i> Navigation</a></li>
+						<li class=""><a href="#typography">Typography</a></li>
+						<li class=""><a href="#buttons">Buttons</a></li>
+						<li class=""><a href="#nav">Nav</a></li>
+						<li class=""><a href="#navbar">Navbar</a></li>
 					</ul>
 				</div>
 				<div class="span9">
@@ -109,54 +110,91 @@
 						This is a new class extended from nav-pills, it's nav-*[colour] so for instance nav-pills nav-purple.<br/>
 						<div class="well small">
 							<ul class="nav nav-pills nav-purple">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 							<ul class="nav nav-pills nav-orange">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 							<ul class="nav nav-pills nav-grey">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 						</div>
 						<div class="well small">
 							<ul class="nav nav-pills nav-stacked nav-purple">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 							<ul class="nav nav-pills nav-stacked nav-orange">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 							<ul class="nav nav-pills nav-stacked nav-grey">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 						</div>
 						<div class="well small">
 							<ul class="nav nav-list nav-purple">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 							<ul class="nav nav-list nav-orange">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
 							<ul class="nav nav-list nav-grey">
-  								<li class="active"><a href="#">Link1</a></li>
-  								<li><a href="#">Link2</a></li>
-  								<li><a href="#">Link3</a></li>
+								<li class="active"><a href="#">Link1</a></li>
+								<li><a href="#">Link2</a></li>
+								<li><a href="#">Link3</a></li>
 							</ul>
+						</div>
+					</section>
+					<br/>
+					<section id="navbar">
+						<div class="page-header"><h2>Navbar</h2></div>
+						This is a new class extended from nav-bar / nav-inverse, it's nav-*[colour] so for instance nav-bar nav-purple.<br/>
+						<div class="well small">
+							<div class="navbar navbar-purple">
+								<div class="navbar-inner">
+									<a class="brand" href="#">Title</a>
+									<ul class="nav">
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="navbar navbar-mauve">
+								<div class="navbar-inner">
+									<a class="brand" href="#">Title</a>
+									<ul class="nav">
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="navbar navbar-green">
+								<div class="navbar-inner">
+									<a class="brand" href="#">Title</a>
+									<ul class="nav">
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</section>
 

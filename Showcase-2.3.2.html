@@ -6,10 +6,16 @@
 		<title>Scoutstrap</title>
 		<meta name="description" content="Scoutstrap Examples" />
 		<meta name="author" content="Adam Boutcher" />
-		<link href="//twitter.github.io/bootstrap/2.3.2/assets/css/bootstrap.css" rel="stylesheet" />
-		<link href="//twitter.github.io/bootstrap/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet" />
+		<link href="//twitter.github.io/bootstrap/2.3.2/assets/css/bootstrap.css" rel="stylesheet"  type="text/css" />
+		<link href="//twitter.github.io/bootstrap/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet"  type="text/css" />
 		<!-- Scoutstrap!! -->
-		<link href="assets/css/scoutstrap-2.3.2.css" rel="stylesheet" />
+		<link href="assets/css/scoutstrap-2.3.2.min.css" rel="stylesheet"  type="text/css" />
+		<!-- Hide Menu on small -->
+		<style type="text/css">
+			@media only screen and (max-width: 785px) {
+				.gh-hide { display:none; }
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -20,7 +26,7 @@
 			</p>
 			<div class="row">
 				<div class="span3">
-					<div style="position:fixed;">
+					<div style="position:fixed;" class="gh-hide">
 						<ul class="nav nav-list" id="nav">
 							<li class=""><a href="#typography">Typography</a></li>
 							<li class=""><a href="#buttons">Buttons</a></li>

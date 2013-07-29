@@ -1,6 +1,7 @@
 Scoutstrap
 ==========
 
+[View the Demo](http://adamboutcher.github.io/Scoutstrap/Showcase-2.3.2.html)
 
 Scoutstrap is built as an extension for the popular CSS framework [Bootstrap (2.3.2)](http://twitter.github.io/bootstrap/2.3.2).
 

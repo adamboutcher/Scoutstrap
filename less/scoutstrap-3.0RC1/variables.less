@@ -1,0 +1,164 @@
+
+// New Colours
+@spurple:				#4D2177;
+@smauve:				#8B0066;
+@sblue:					#006972;
+@sgreen:				#84A40B;
+@sorange:				#ED7703;
+@sgrey:					#9397A1;
+@sblack:				#001323;
+
+// Bootstrap Vars
+@btnPurpleBackground:				@spurple;
+@btnPurpleBackgroundHighlight:		spin(@spurple, 15%);
+
+@btnMauveBackground:				@smauve;
+@btnMauveBackgroundHighlight:		spin(@smauve, 15%);
+
+@btnBlueBackground:					@sblue;
+@btnBlueBackgroundHighlight:		spin(@sblue, 15%);
+
+@btnGreenBackground:				@sgreen;
+@btnGreenBackgroundHighlight:		spin(@sgreen, 15%);
+
+@btnOrangeBackground:				@sorange;
+@btnOrangeBackgroundHighlight:		spin(@sorange, -15%);
+
+@btnGreyBackground:					@sgrey;
+@btnGreyBackgroundHighlight:		spin(@sgrey, 15%);
+
+@btnBlackBackground:				@sblack;
+@btnBlackBackgroundHighlight:		spin(@sblack, 15%);
+
+@purpleText:			@spurple;
+@purpleBackground:		@spurple;
+@purpleBorder:			darken(spin(@purpleBackground, -10), 3%);
+
+@mauveText:				@smauve;
+@mauveBackground:		@smauve;
+@mauveBorder:			darken(spin(@mauveBackground, -10), 3%);
+
+@blueText:				@sblue;
+@blueBackground:		@sblue;
+@blueBorder:			darken(spin(@blueBackground, -10), 3%);
+
+@greenText:				@sgreen;
+@greenBackground:		@sgreen;
+@greenBorder:			darken(spin(@greenBackground, -10), 3%);
+
+@orangeText:			@sorange;
+@orangeBackground:		@sorange;
+@orangeBorder:			darken(spin(@orangeBackground, -10), 3%);
+
+@greyText:				@sgrey;
+@greyBackground:		@sgrey;
+@greyBorder:			darken(spin(@greyBackground, -10), 3%);
+
+@blackText:				@sblack;
+@blackBackground:		@sblack;
+@blackBorder:			darken(spin(@blackBackground, -10), 3%);
+
+@navbarPurpleBackground:                @btnPurpleBackground;
+@navbarPurpleBackgroundHighlight:       @btnPurpleBackgroundHighlight;
+@navbarPurpleBorder:                    @spurple;
+@navbarPurpleText:                      @white;
+@navbarPurpleLinkColor:                 @white;
+@navbarPurpleLinkColorHover:            @white;
+@navbarPurpleLinkColorActive:           @navbarPurpleLinkColorHover;
+@navbarPurpleLinkBackgroundHover:       transparent;
+@navbarPurpleLinkBackgroundActive:      @navbarPurpleBackground;
+@navbarPurpleSearchBackground:          lighten(@navbarPurpleBackground, 25%);
+@navbarPurpleSearchBackgroundFocus:     @white;
+@navbarPurpleSearchBorder:              @navbarPurpleBackground;
+@navbarPurpleSearchPlaceholderColor:    #ccc;
+@navbarPurpleBrandColor:                @navbarPurpleLinkColor;
+
+@navbarMauveBackground:                @btnMauveBackground;
+@navbarMauveBackgroundHighlight:       @btnMauveBackgroundHighlight;
+@navbarMauveBorder:                    @smauve;
+@navbarMauveText:                      @white;
+@navbarMauveLinkColor:                 @white;
+@navbarMauveLinkColorHover:            @white;
+@navbarMauveLinkColorActive:           @navbarMauveLinkColorHover;
+@navbarMauveLinkBackgroundHover:       transparent;
+@navbarMauveLinkBackgroundActive:      @navbarMauveBackground;
+@navbarMauveSearchBackground:          lighten(@navbarMauveBackground, 25%);
+@navbarMauveSearchBackgroundFocus:     @white;
+@navbarMauveSearchBorder:              @navbarMauveBackground;
+@navbarMauveSearchPlaceholderColor:    #ccc;
+@navbarMauveBrandColor:                @navbarMauveLinkColor;
+
+@navbarBlueBackground:                @btnBlueBackground;
+@navbarBlueBackgroundHighlight:       @btnBlueBackgroundHighlight;
+@navbarBlueBorder:                    @sblue;
+@navbarBlueText:                      @white;
+@navbarBlueLinkColor:                 @white;
+@navbarBlueLinkColorHover:            @white;
+@navbarBlueLinkColorActive:           @navbarBlueLinkColorHover;
+@navbarBlueLinkBackgroundHover:       transparent;
+@navbarBlueLinkBackgroundActive:      @navbarBlueBackground;
+@navbarBlueSearchBackground:          lighten(@navbarBlueBackground, 25%);
+@navbarBlueSearchBackgroundFocus:     @white;
+@navbarBlueSearchBorder:              @navbarBlueBackground;
+@navbarBlueSearchPlaceholderColor:    #ccc;
+@navbarBlueBrandColor:                @navbarBlueLinkColor;
+
+@navbarGreenBackground:                @btnGreenBackground;
+@navbarGreenBackgroundHighlight:       @btnGreenBackgroundHighlight;
+@navbarGreenBorder:                    @sgreen;
+@navbarGreenText:                      @white;
+@navbarGreenLinkColor:                 @white;
+@navbarGreenLinkColorHover:            @white;
+@navbarGreenLinkColorActive:           @navbarGreenLinkColorHover;
+@navbarGreenLinkBackgroundHover:       transparent;
+@navbarGreenLinkBackgroundActive:      @navbarGreenBackground;
+@navbarGreenSearchBackground:          lighten(@navbarGreenBackground, 25%);
+@navbarGreenSearchBackgroundFocus:     @white;
+@navbarGreenSearchBorder:              @navbarGreenBackground;
+@navbarGreenSearchPlaceholderColor:    #ccc;
+@navbarGreenBrandColor:                @navbarGreenLinkColor;
+
+@navbarOrangeBackground:                @btnOrangeBackground;
+@navbarOrangeBackgroundHighlight:       @btnOrangeBackgroundHighlight;
+@navbarOrangeBorder:                    @sorange;
+@navbarOrangeText:                      @white;
+@navbarOrangeLinkColor:                 @white;
+@navbarOrangeLinkColorHover:            @white;
+@navbarOrangeLinkColorActive:           @navbarOrangeLinkColorHover;
+@navbarOrangeLinkBackgroundHover:       transparent;
+@navbarOrangeLinkBackgroundActive:      @navbarOrangeBackground;
+@navbarOrangeSearchBackground:          lighten(@navbarOrangeBackground, 25%);
+@navbarOrangeSearchBackgroundFocus:     @white;
+@navbarOrangeSearchBorder:              @navbarOrangeBackground;
+@navbarOrangeSearchPlaceholderColor:    #ccc;
+@navbarOrangeBrandColor:                @navbarOrangeLinkColor;
+
+@navbarGreyBackground:                @btnGreyBackground;
+@navbarGreyBackgroundHighlight:       @btnGreyBackgroundHighlight;
+@navbarGreyBorder:                    @sgrey;
+@navbarGreyText:                      @white;
+@navbarGreyLinkColor:                 @white;
+@navbarGreyLinkColorHover:            @white;
+@navbarGreyLinkColorActive:           @navbarGreyLinkColorHover;
+@navbarGreyLinkBackgroundHover:       transparent;
+@navbarGreyLinkBackgroundActive:      @navbarGreyBackground;
+@navbarGreySearchBackground:          lighten(@navbarGreyBackground, 25%);
+@navbarGreySearchBackgroundFocus:     @white;
+@navbarGreySearchBorder:              @navbarGreyBackground;
+@navbarGreySearchPlaceholderColor:    #ccc;
+@navbarGreyBrandColor:                @navbarGreyLinkColor;
+
+@navbarBlackBackground:                @btnBlackBackground;
+@navbarBlackBackgroundHighlight:       @btnBlackBackgroundHighlight;
+@navbarBlackBorder:                    @sblack;
+@navbarBlackText:                      @white;
+@navbarBlackLinkColor:                 @white;
+@navbarBlackLinkColorHover:            @white;
+@navbarBlackLinkColorActive:           @navbarBlackLinkColorHover;
+@navbarBlackLinkBackgroundHover:       transparent;
+@navbarBlackLinkBackgroundActive:      @navbarBlackBackground;
+@navbarBlackSearchBackground:          lighten(@navbarBlackBackground, 25%);
+@navbarBlackSearchBackgroundFocus:     @white;
+@navbarBlackSearchBorder:              @navbarBlackBackground;
+@navbarBlackSearchPlaceholderColor:    #ccc;
+@navbarBlackBrandColor:                @navbarBlackLinkColor;

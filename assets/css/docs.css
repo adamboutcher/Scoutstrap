@@ -1,0 +1,21 @@
+.middle {
+	text-align:center;margin:5% auto 0;padding:10px 0;
+}
+.logo {
+	margin: 0 auto;
+}
+
+.docs-nav {
+	position:fixed;border-bottom:1px solid #DDD;width:100%;background-color:#EEE;z-index:999;
+}
+.docs-nav h1 {
+	font-size:20px;margin:0 0 0 10px;
+}
+.docs-content {
+	padding-top:55px;
+}
+nav.docs-menu {
+	position:fixed;
+}
+
+@media(max-width:956px){.hidden-phone{display:none!important}}

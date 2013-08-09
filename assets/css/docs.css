@@ -17,3 +17,5 @@
 nav.docs-menu {
 	position:fixed;
 }
+
+@media(max-width:956px){.hidden-phone{display:none!important}}

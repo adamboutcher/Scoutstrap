@@ -18,4 +18,101 @@ nav.docs-menu {
 	position:fixed;
 }
 
+.btn-flat {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.btn-flat:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn-flat:hover,
+.btn-flat:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+.btn-flat:active,
+.btn-flat.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-flat.disabled,
+.btn-flat[disabled],
+fieldset[disabled] .btn-flat {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-flat-large {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+
+.btn-flat-orange {
+  color: #ffffff;
+  background-color: #ed7703;
+  border-color: #de4b03;
+}
+.btn-flat-orange:hover,
+.btn-flat-orange:focus,
+.btn-flat-orange:active,
+.btn-flat-orange.active,
+.open .dropdown-toggle.btn-flat-orange {
+  color: #ffffff;
+  background-color: #c56302;
+  border-color: #a13702;
+}
+.btn-flat-orange:active,
+.btn-flat-orange.active,
+.open .dropdown-toggle.btn-flat-orange {
+  background-image: none;
+}
+.btn-flat-orange.disabled,
+.btn-flat-orange[disabled],
+fieldset[disabled] .btn-flat-orange,
+.btn-flat-orange.disabled:hover,
+.btn-flat-orange[disabled]:hover,
+fieldset[disabled] .btn-flat-orange:hover,
+.btn-flat-orange.disabled:focus,
+.btn-flat-orange[disabled]:focus,
+fieldset[disabled] .btn-flat-orange:focus,
+.btn-flat-orange.disabled:active,
+.btn-flat-orange[disabled]:active,
+fieldset[disabled] .btn-flat-orange:active,
+.btn-flat-orange.disabled.active,
+.btn-flat-orange[disabled].active,
+fieldset[disabled] .btn-flat-orange.active {
+  background-color: #ed7703;
+  border-color: #de4b03;
+}
+
 @media(max-width:956px){.hidden-phone{display:none!important}}

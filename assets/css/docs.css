@@ -114,5 +114,24 @@ fieldset[disabled] .btn-flat-orange.active {
   background-color: #ed7703;
   border-color: #de4b03;
 }
+.btn-flat-blue {
+  color: #ffffff;
+  background-color: #006972;
+  border-color: #00635a;
+}
+.btn-flat-blue:hover,
+.btn-flat-blue:focus,
+.btn-flat-blue:active,
+.btn-flat-blue.active,
+.open .dropdown-toggle.btn-flat-blue {
+  color: #ffffff;
+  background-color: #004349;
+  border-color: #002622;
+}
+.btn-flat-blue:active,
+.btn-flat-blue.active,
+.open .dropdown-toggle.btn-flat-blue {
+  background-image: none;
+}
 
 @media(max-width:956px){.hidden-phone{display:none!important}}

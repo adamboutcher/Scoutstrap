@@ -1,0 +1,207 @@
+/*!
+ * Scoutstrap v1.0
+ * Copyright 2013 Adam Boutcher
+ *
+ * Built for Bootstrap v3.0RC1
+ * Copyright 2012 Twitter, Inc
+ *
+ */
+/*! NOTHING HERE YET! */
+/*
+@btnMauveBackground:				@smauve;
+@btnMauveBackgroundHighlight:		spin(@smauve, 15%);
+
+@btnBlueBackground:					@sblue;
+@btnBlueBackgroundHighlight:		spin(@sblue, 15%);
+
+@btnGreenBackground:				@sgreen;
+@btnGreenBackgroundHighlight:		spin(@sgreen, 15%);
+
+@btnOrangeBackground:				@sorange;
+@btnOrangeBackgroundHighlight:		spin(@sorange, -15%);
+
+@btnGreyBackground:					@sgrey;
+@btnGreyBackgroundHighlight:		spin(@sgrey, 15%);
+
+@btnBlackBackground:				@sblack;
+@btnBlackBackgroundHighlight:		spin(@sblack, 15%);
+
+@purpleText:			@spurple;
+@purpleBackground:		@spurple;
+@purpleBorder:			darken(spin(@purpleBackground, -10), 3%);
+
+@mauveText:				@smauve;
+@mauveBackground:		@smauve;
+@mauveBorder:			darken(spin(@mauveBackground, -10), 3%);
+
+@blueText:				@sblue;
+@blueBackground:		@sblue;
+@blueBorder:			darken(spin(@blueBackground, -10), 3%);
+
+@greenText:				@sgreen;
+@greenBackground:		@sgreen;
+@greenBorder:			darken(spin(@greenBackground, -10), 3%);
+
+@orangeText:			@sorange;
+@orangeBackground:		@sorange;
+@orangeBorder:			darken(spin(@orangeBackground, -10), 3%);
+
+@greyText:				@sgrey;
+@greyBackground:		@sgrey;
+@greyBorder:			darken(spin(@greyBackground, -10), 3%);
+
+@blackText:				@sblack;
+@blackBackground:		@sblack;
+@blackBorder:			darken(spin(@blackBackground, -10), 3%);
+
+@navbarPurpleBackground:                @btnPurpleBackground;
+@navbarPurpleBackgroundHighlight:       @btnPurpleBackgroundHighlight;
+@navbarPurpleBorder:                    @spurple;
+@navbarPurpleText:                      @white;
+@navbarPurpleLinkColor:                 @white;
+@navbarPurpleLinkColorHover:            @white;
+@navbarPurpleLinkColorActive:           @navbarPurpleLinkColorHover;
+@navbarPurpleLinkBackgroundHover:       transparent;
+@navbarPurpleLinkBackgroundActive:      @navbarPurpleBackground;
+@navbarPurpleSearchBackground:          lighten(@navbarPurpleBackground, 25%);
+@navbarPurpleSearchBackgroundFocus:     @white;
+@navbarPurpleSearchBorder:              @navbarPurpleBackground;
+@navbarPurpleSearchPlaceholderColor:    #ccc;
+@navbarPurpleBrandColor:                @navbarPurpleLinkColor;
+
+@navbarMauveBackground:                @btnMauveBackground;
+@navbarMauveBackgroundHighlight:       @btnMauveBackgroundHighlight;
+@navbarMauveBorder:                    @smauve;
+@navbarMauveText:                      @white;
+@navbarMauveLinkColor:                 @white;
+@navbarMauveLinkColorHover:            @white;
+@navbarMauveLinkColorActive:           @navbarMauveLinkColorHover;
+@navbarMauveLinkBackgroundHover:       transparent;
+@navbarMauveLinkBackgroundActive:      @navbarMauveBackground;
+@navbarMauveSearchBackground:          lighten(@navbarMauveBackground, 25%);
+@navbarMauveSearchBackgroundFocus:     @white;
+@navbarMauveSearchBorder:              @navbarMauveBackground;
+@navbarMauveSearchPlaceholderColor:    #ccc;
+@navbarMauveBrandColor:                @navbarMauveLinkColor;
+
+@navbarBlueBackground:                @btnBlueBackground;
+@navbarBlueBackgroundHighlight:       @btnBlueBackgroundHighlight;
+@navbarBlueBorder:                    @sblue;
+@navbarBlueText:                      @white;
+@navbarBlueLinkColor:                 @white;
+@navbarBlueLinkColorHover:            @white;
+@navbarBlueLinkColorActive:           @navbarBlueLinkColorHover;
+@navbarBlueLinkBackgroundHover:       transparent;
+@navbarBlueLinkBackgroundActive:      @navbarBlueBackground;
+@navbarBlueSearchBackground:          lighten(@navbarBlueBackground, 25%);
+@navbarBlueSearchBackgroundFocus:     @white;
+@navbarBlueSearchBorder:              @navbarBlueBackground;
+@navbarBlueSearchPlaceholderColor:    #ccc;
+@navbarBlueBrandColor:                @navbarBlueLinkColor;
+
+@navbarGreenBackground:                @btnGreenBackground;
+@navbarGreenBackgroundHighlight:       @btnGreenBackgroundHighlight;
+@navbarGreenBorder:                    @sgreen;
+@navbarGreenText:                      @white;
+@navbarGreenLinkColor:                 @white;
+@navbarGreenLinkColorHover:            @white;
+@navbarGreenLinkColorActive:           @navbarGreenLinkColorHover;
+@navbarGreenLinkBackgroundHover:       transparent;
+@navbarGreenLinkBackgroundActive:      @navbarGreenBackground;
+@navbarGreenSearchBackground:          lighten(@navbarGreenBackground, 25%);
+@navbarGreenSearchBackgroundFocus:     @white;
+@navbarGreenSearchBorder:              @navbarGreenBackground;
+@navbarGreenSearchPlaceholderColor:    #ccc;
+@navbarGreenBrandColor:                @navbarGreenLinkColor;
+
+@navbarOrangeBackground:                @btnOrangeBackground;
+@navbarOrangeBackgroundHighlight:       @btnOrangeBackgroundHighlight;
+@navbarOrangeBorder:                    @sorange;
+@navbarOrangeText:                      @white;
+@navbarOrangeLinkColor:                 @white;
+@navbarOrangeLinkColorHover:            @white;
+@navbarOrangeLinkColorActive:           @navbarOrangeLinkColorHover;
+@navbarOrangeLinkBackgroundHover:       transparent;
+@navbarOrangeLinkBackgroundActive:      @navbarOrangeBackground;
+@navbarOrangeSearchBackground:          lighten(@navbarOrangeBackground, 25%);
+@navbarOrangeSearchBackgroundFocus:     @white;
+@navbarOrangeSearchBorder:              @navbarOrangeBackground;
+@navbarOrangeSearchPlaceholderColor:    #ccc;
+@navbarOrangeBrandColor:                @navbarOrangeLinkColor;
+
+@navbarGreyBackground:                @btnGreyBackground;
+@navbarGreyBackgroundHighlight:       @btnGreyBackgroundHighlight;
+@navbarGreyBorder:                    @sgrey;
+@navbarGreyText:                      @white;
+@navbarGreyLinkColor:                 @white;
+@navbarGreyLinkColorHover:            @white;
+@navbarGreyLinkColorActive:           @navbarGreyLinkColorHover;
+@navbarGreyLinkBackgroundHover:       transparent;
+@navbarGreyLinkBackgroundActive:      @navbarGreyBackground;
+@navbarGreySearchBackground:          lighten(@navbarGreyBackground, 25%);
+@navbarGreySearchBackgroundFocus:     @white;
+@navbarGreySearchBorder:              @navbarGreyBackground;
+@navbarGreySearchPlaceholderColor:    #ccc;
+@navbarGreyBrandColor:                @navbarGreyLinkColor;
+
+@navbarBlackBackground:                @btnBlackBackground;
+@navbarBlackBackgroundHighlight:       @btnBlackBackgroundHighlight;
+@navbarBlackBorder:                    @sblack;
+@navbarBlackText:                      @white;
+@navbarBlackLinkColor:                 @white;
+@navbarBlackLinkColorHover:            @white;
+@navbarBlackLinkColorActive:           @navbarBlackLinkColorHover;
+@navbarBlackLinkBackgroundHover:       transparent;
+@navbarBlackLinkBackgroundActive:      @navbarBlackBackground;
+@navbarBlackSearchBackground:          lighten(@navbarBlackBackground, 25%);
+@navbarBlackSearchBackgroundFocus:     @white;
+@navbarBlackSearchBorder:              @navbarBlackBackground;
+@navbarBlackSearchPlaceholderColor:    #ccc;
+@navbarBlackBrandColor:                @navbarBlackLinkColor;
+
+*/.btn-purple {
+  color: #ffffff;
+  background-color: #4d2177;
+  border-color: #381e6b;
+}
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  color: #ffffff;
+  background-color: #381857;
+  border-color: #1f103b;
+}
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  background-image: none;
+}
+.btn-purple.disabled,
+.btn-purple[disabled],
+fieldset[disabled] .btn-purple,
+.btn-purple.disabled:hover,
+.btn-purple[disabled]:hover,
+fieldset[disabled] .btn-purple:hover,
+.btn-purple.disabled:focus,
+.btn-purple[disabled]:focus,
+fieldset[disabled] .btn-purple:focus,
+.btn-purple.disabled:active,
+.btn-purple[disabled]:active,
+fieldset[disabled] .btn-purple:active,
+.btn-purple.disabled.active,
+.btn-purple[disabled].active,
+fieldset[disabled] .btn-purple.active {
+  background-color: #4d2177;
+  border-color: #381e6b;
+}
+/*
+@import "scoutstrap-3.0.0/type.less";
+
+@import "scoutstrap-3.0.0/button-group.less";
+@import "scoutstrap-3.0.0/nav.less";
+@import "scoutstrap-3.0.0/nav-bar.less";
+@import "scoutstrap-3.0.0/progress-bars.less";
+
+*/

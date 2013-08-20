@@ -1,36 +1,24 @@
-.btn-group.open {
-	.btn-purple.dropdown-toggle {
-		background-color: @btnPurpleBackgroundHighlight;
-	}
-	.btn-mauve.dropdown-toggle {
-		background-color: @btnMauveBackgroundHighlight;
-	}
-	.btn-blue.dropdown-toggle {
-		background-color: @btnBlueBackgroundHighlight;
-	}
-	.btn-green.dropdown-toggle {
-		background-color: @btnGreenBackgroundHighlight;
-	}
-	.btn-orange.dropdown-toggle {
-		background-color: @btnOrangeBackgroundHighlight;
-	}
-	.btn-grey.dropdown-toggle {
-		background-color: @btnGreyBackgroundHighlight;
-	}
-	.btn-black.dropdown-toggle {
-		background-color: @btnBlackBackgroundHighlight;
-	}
+.caret {
+  .btn-purple &,
+  .btn-mauve &,
+  .btn-blue &,
+  .btn-green &,
+  .btn-orange &,
+  .btn-grey &,
+  .btn-black & {
+    border-top-color: #fff;
+  }
 }
-
-.btn-purple,
-.btn-mauve,
-.btn-blue,
-.btn-green,
-.btn-orange,
-.btn-grey,
-.btn-black {
-	.caret {
-		border-top-color: @white;
-		border-bottom-color: @white;
-	}
+.dropup {
+  .caret {
+    .btn-purple &,
+    .btn-mauve &,
+    .btn-blue &,
+    .btn-green &,
+    .btn-orange &,
+    .btn-grey &,
+    .btn-black & {
+      border-bottom-color: #fff;
+    }
+  }
 }

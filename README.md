@@ -1,16 +1,15 @@
-Scoutstrap
+[Scoutstrap](http://adamboutcher.github.io/Scoutstrap/)
 ==========
+Scoutstrap is a bootstrap extension for on-brand UK Scout Association Websites.
 
-[View the Demo](http://adamboutcher.github.io/Scoutstrap/)
 
-Scoutstrap is built as an extension for the popular CSS framework [Bootstrap (2.3.2)](http://twitter.github.io/bootstrap/2.3.2).
+Scoutstrap is built as an extension to the popular CSS framework [Bootstrap](http://getbootstrap.com/), initially build for [version 2.3.2](http://getbootstrap.com/2.3.2/) work is now being done to bring it into bootstrap 3.0.0 style/standards.
 
-It uses the colour scheme outlined over at the [Scout Brand Centre](http://scouts.org.uk/brand) and is aimed at website developers to speed up making an "on brand" site quickly and with standard UI elements.
+The aim of Scoutstrap is to help website developers create an "on brand" website for the [Scout Association](http://scouts.org.uk/) and still be within the naming conventions and UI style of Bootstrap yet include the branding guidelines set out at the [Scout Brand Centre](http://scouts.org.uk/brand) so websites can be quickly and easily developed for scout groups.
 
-This is currently being developed with Bootstrap 2.3.2 in mind, there are placeholders for the new Bootstrap 3.0RC1 in place but these currently do not work. It is developed in LESS as the source of Bootstrap is developed in it; and the soruce is provided along with the compiled version. There is also a showcase file to display the changes/new classes but this isn't very small screen friendly at the moment and probably will never be as it's not designed for mobile/tablet use and only as an aid to a developer.
+Scoutstrap started as a personal extension for a local scout group website but was open sourced so everyone can gain for the work. It *should* be compatible with all/any bootstrap based framework/templates available but obviously hasn't been rigoursly tested.
 
-I am currently compiling this in LESS v1.4.0 and there are known issues with Bootstrap and LESS 1.4.0 so there might be problems with some builds.
-
+The bootstrap extensions are written in LESS and the source is available. I aim to include Scoutstrap extensions for both Foundation and Pure CSS frameworks eventually.
 
 
 
@@ -19,10 +18,9 @@ About Me
 
 My name is [Adam Boutcher](http://www.aboutcher.co.uk) and I'm a geek, website developer and a Scout. This is my first steps into LESS and GitHub so please bear with me if there's anything not quite right.
 
-My Socialy Stuff:
+Links to me:
 
 * [Website/Blog](http://www.aboutcher.co.uk)
 * [Twitter](http://twitter.com/adamboutcher)
 * [Google+](http://plus.google.com/102562876769741767043)
 * [CodePen](http://codepen.io/adamboutcher)
-* [Github](https://github.com/adamboutcher)

@@ -1,7 +1,8 @@
 [Scoutstrap](http://adamboutcher.github.io/Scoutstrap/)
 ==========
-Scoutstrap is a bootstrap extension for on-brand UK Scout Association Websites.
+*Scoutstrap is a bootstrap extension for on-brand UK Scout Association Websites.*
 
+_UNSTABLE SOURCE_
 
 Scoutstrap is built as an extension to the popular CSS framework [Bootstrap](http://getbootstrap.com/), initially build for [version 2.3.2](http://getbootstrap.com/2.3.2/) work is now being done to bring it into bootstrap 3.0.0 style/standards.
 

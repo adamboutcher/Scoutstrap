@@ -472,15 +472,87 @@ fieldset[disabled] .btn-black.active {
 .alert-black .alert-link {
   color: #e6e6e6;
 }
-.nav-pills .nav-purple > li.active > a,
-.nav-tabs .nav-purple > li.active > a,
-.nav-pills .nav-purple > li.active > a:hover,
-.nav-tabs .nav-purple > li.active > a:hover,
-.nav-pills .nav-purple > li.active > a:focus,
-.nav-tabs .nav-purple > li.active > a:focus {
+.nav-pills.nav-purple > li.active > a,
+.nav-tabs.nav-purple > li.active > a,
+.nav-pills.nav-purple > li.active > a:hover,
+.nav-tabs.nav-purple > li.active > a:hover,
+.nav-pills.nav-purple > li.active > a:focus,
+.nav-tabs.nav-purple > li.active > a:focus {
   color: #dddddd;
   background-color: #4d2177;
   border: 1px solid #381e6b;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.nav-pills.nav-mauve > li.active > a,
+.nav-tabs.nav-mauve > li.active > a,
+.nav-pills.nav-mauve > li.active > a:hover,
+.nav-tabs.nav-mauve > li.active > a:hover,
+.nav-pills.nav-mauve > li.active > a:focus,
+.nav-tabs.nav-mauve > li.active > a:focus {
+  color: #dddddd;
+  background-color: #8b0066;
+  border: 1px solid #7c006f;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.nav-pills.nav-blue > li.active > a,
+.nav-tabs.nav-blue > li.active > a,
+.nav-pills.nav-blue > li.active > a:hover,
+.nav-tabs.nav-blue > li.active > a:hover,
+.nav-pills.nav-blue > li.active > a:focus,
+.nav-tabs.nav-blue > li.active > a:focus {
+  color: #dddddd;
+  background-color: #006972;
+  border: 1px solid #00635a;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.nav-pills.nav-green > li.active > a,
+.nav-tabs.nav-green > li.active > a,
+.nav-pills.nav-green > li.active > a:hover,
+.nav-tabs.nav-green > li.active > a:hover,
+.nav-pills.nav-green > li.active > a:focus,
+.nav-tabs.nav-green > li.active > a:focus {
+  color: #dddddd;
+  background-color: #84a40b;
+  border: 1px solid #90960a;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.nav-pills.nav-orange > li.active > a,
+.nav-tabs.nav-orange > li.active > a,
+.nav-pills.nav-orange > li.active > a:hover,
+.nav-tabs.nav-orange > li.active > a:hover,
+.nav-pills.nav-orange > li.active > a:focus,
+.nav-tabs.nav-orange > li.active > a:focus {
+  color: #dddddd;
+  background-color: #ed7703;
+  border: 1px solid #de4b03;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.nav-pills.nav-grey > li.active > a,
+.nav-tabs.nav-grey > li.active > a,
+.nav-pills.nav-grey > li.active > a:hover,
+.nav-tabs.nav-grey > li.active > a:hover,
+.nav-pills.nav-grey > li.active > a:focus,
+.nav-tabs.nav-grey > li.active > a:focus {
+  color: #dddddd;
+  background-color: #9397a1;
+  border: 1px solid #8b929a;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.nav-pills.nav-black > li.active > a,
+.nav-tabs.nav-black > li.active > a,
+.nav-pills.nav-black > li.active > a:hover,
+.nav-tabs.nav-black > li.active > a:hover,
+.nav-pills.nav-black > li.active > a:focus,
+.nav-tabs.nav-black > li.active > a:focus {
+  color: #dddddd;
+  background-color: #001323;
+  border: 1px solid #000e14;
   border-bottom-color: transparent;
   cursor: default;
 }

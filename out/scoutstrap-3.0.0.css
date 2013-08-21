@@ -456,17 +456,15 @@ fieldset[disabled] .btn-black.active {
 .btn-grey .caret,
 .btn-black .caret {
   border-top-color: #fff;
-  border-top: #fff;
 }
-.btn-purple .dropup .caret,
-.btn-mauve .dropup .caret,
-.btn-blue .dropup .caret,
-.btn-green .dropup .caret,
-.btn-orange .dropup .caret,
-.btn-grey .dropup .caret,
-.btn-black .dropup .caret {
+.dropup .btn-purple .caret,
+.dropup .btn-mauve .caret,
+.dropup .btn-blue .caret,
+.dropup .btn-green .caret,
+.dropup .btn-orange .caret,
+.dropup .btn-grey .caret,
+.dropup .btn-black .caret {
   border-bottom-color: #fff;
-  border-bottom: #fff;
 }
 .progress-bar-purple {
   background-color: #4d2177;

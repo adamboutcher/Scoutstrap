@@ -556,6 +556,34 @@ fieldset[disabled] .btn-black.active {
   border-bottom-color: transparent;
   cursor: default;
 }
+/* Sout Divider */
+.scout-divider {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAAlCAMAAADm4zMhAAABqlBMVEWwosNuVJGQfKtIJ3XNw9mAaJ6jkblKKHZ4YJmgj7evoMLHu9PUzN5yWpXTyd3p5e/Jv9aIc6Xd1+WsncCgjreTgK24q8mTf63j3em9sM3c1eTRydzDuNFwVpNdQIRwVJKEbKF2XJfv6/KZh7Hn4+2Xg7FmSotMKnh+Z5339vl6YZmXhbGfjbXTy92zpMW1qMd/aJ5PLnrs6fGRfaxlSYpfQoXe2Obf2ufv7fO7r8xIKHWomb1ZPIKGcKPPxtutn8GrnL/IvdVUNn5cPoPk3+t6YpqKdKWbibPNxNmah7PXz+FvVJK/s8/i3el1XJemlruYhbFsUY9sUpGjk7pmSoxrUI/Lwdjh2+iTgK5qTo77+/x8ZJu1p8fu6/K5rcq9ss6di7WLdqdbPoTr5+9SMnyWg6/5+ftuU5H29fjFutPn4u1UNH718/fz8fZYOoFgQ4ePe6tVNn5yWJTp5e5aO4GBaqDBtdBaPIKOealoTI1jRomFbqJ0WpWpmb53XpdXOID9/P359/pQMHpRMntTNHzy7/VPMHpKKnZLKnZMLHhMLHdOLnjl5eX////NZ27TAAADL0lEQVR42u3cVa9dNxCG4VNmZm7KFOY0nB5mZmbazAxrr23P5PvP8TptL/MHPPNItmT5+pVlyXIPlEDN7DaUJBq6REM1Xj6AEkRDF2i6TUR/NKDk0NDFOf3NWnb+gpJDQ5ems0/EkfY/UGJo6NKM/cr/+RNKDA1dmIeWnQw5RSgxNHRZfs+Tk5/sOscdKCk0dFnmQmY2lYpxjo+gpNDQZalaZu4uFMl5rCe6HBq6LIPEzkqdnBqUGBq6LP3klA7DkJlzUGJo6BLcqH6Q3T1sAPjbOoUcO7PRurOWyH7yNZTvNHT/nRTaNpI6Am6zk6uScz/q/i5HaqdQftPQvXcyZYwpptxUOsX90LmySUT3gPSYyz+/7Hb6oPymoXvvqmFuzw26wM0EPm8TzWCK6PE25q8TtVoP11stGxxCeU1D992joLv4/gDSA2VrkwcHMaJdZIimkf6WaGt9YKnz7m7bfg/lNQ3dd99Za8vArc2Qmd/CNcMvd9pmq9mcIuedA+xtBETnoLzW81T5AM9lnUtLqx9ypB+VbrJ5PrRv4jNiZ6aZbu4Q0Y94nqfKB3qi+65ubX0tFfsiQ04Wy90xrFBmaahFTqvaF3w6SfRkHsprGrrvyszHLWN2uOuksEzjGKR+DNOZujEmYP4Zym8auu/mn1CkWLi3Q7SI3tYQLoXp88xcLye2umfi+urddxq69x6ws9FoNG7mX1rEZGwJ8TheN7z5A/DTXXJ+GYXynIbuvwW+s/9v8raCWB8QVPfaNIHIsDHtBX0X5z8NXYCR2Sqc1Y/s7EiYOOy5PL1hkl/BOZmpjOvXcRJo6CI0AdyM2TNhSByZA7Cnl3MhNHQx3m5bh/+X/BJKDg1djhsVrlaOL66V4ivJ1vp7UIJo6HJs50tYLAH1MjK8CiWJhi5D843chS26eCV8ARc4geuUyq3chhJDQ5ehE1r72jBe7dawb65i0xhzeQ1KDA1diIkgeGW1Eb9THg3pRWzvB8HHUHJo6FIcHQEjzIkNogKA0VtQgmjokhSJektEWShpNHRBxpl5x41rUNJo6HJ0vgk4Uq+dQAmjoQvSWS/Uar27j/agpHkGOxRLzN85VR8AAAAASUVORK5CYII=") no-repeat center bottom;
+  padding-bottom: 35px;
+}
+/* Input Focus Colour */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(77, 33, 119, 0.8);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(77, 33, 119, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(77, 33, 119, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(77, 33, 119, 0.6);
+  color: #4D2177;
+}
 /*
 @import "scoutstrap-3.0.0/nav-bar.less";
 */

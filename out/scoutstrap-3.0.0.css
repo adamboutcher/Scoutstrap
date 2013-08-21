@@ -472,7 +472,18 @@ fieldset[disabled] .btn-black.active {
 .alert-black .alert-link {
   color: #e6e6e6;
 }
+.nav-pills .nav-purple.active > a,
+.nav-tabs .nav-purple.active > a,
+.nav-pills .nav-purple.active > a:hover,
+.nav-tabs .nav-purple.active > a:hover,
+.nav-pills .nav-purple.active > a:focus,
+.nav-tabs .nav-purple.active > a:focus {
+  color: #dddddd;
+  background-color: #4d2177;
+  border: 1px solid #381e6b;
+  border-bottom-color: transparent;
+  cursor: default;
+}
 /*
-@import "scoutstrap-3.0.0/nav.less";
 @import "scoutstrap-3.0.0/nav-bar.less";
 */
